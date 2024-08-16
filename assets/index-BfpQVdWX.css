@@ -1,16 +1,16 @@
 @font-face {
   font-family: Mena Grotesk;
-  src: url(/fonts/Mena-Grotesk-Book.woff) format('woff');
+  src: url('/fonts/Mena-Grotesk-Book.woff') format('woff');
   font-weight: 400;
 }
 @font-face {
   font-family: Mena Grotesk;
-  src: url(/fonts/Mena-Grotesk-SemiBold.woff) format('woff');
+  src: url('/fonts/Mena-Grotesk-SemiBold.woff') format('woff');
   font-weight: 600;
 }
 @font-face {
   font-family: Mena Grotesk;
-  src: url(/fonts/Mena-Grotesk-Bold.woff) format('woff');
+  src: url('/fonts/Mena-Grotesk-Bold.woff') format('woff');
   font-weight: 700;
 }
 * {
@@ -265,7 +265,7 @@ button {
   margin: 5rem auto 0;
 }
 .foco-mentoria {
-  background: url(./images/background-mentoria.jpg);
+  background: url('./images/background-mentoria.jpg');
   background-position: center center;
   background-size: cover;
   padding: 10rem 2rem;
@@ -290,7 +290,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(./images/background-price.jpg);
+  background: url('./images/background-price.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -374,7 +374,7 @@ button {
 .pattern-full,
 .pattern-full-mobile {
   position: absolute;
-  background: url(./images/svg/pattern-green.svg), #23c6bd;
+  background: url('./images/svg/pattern-green.svg'), #23c6bd;
   background-repeat: repeat;
   width: 100%;
   height: 10rem;
