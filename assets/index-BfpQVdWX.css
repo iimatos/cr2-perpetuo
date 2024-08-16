@@ -1,16 +1,16 @@
 @font-face {
   font-family: Mena Grotesk;
-  src: url('/fonts/Mena-Grotesk-Book.woff') format('woff');
+  src: url('./fonts/Mena-Grotesk-Book.woff') format('woff');
   font-weight: 400;
 }
 @font-face {
   font-family: Mena Grotesk;
-  src: url('/fonts/Mena-Grotesk-SemiBold.woff') format('woff');
+  src: url('./fonts/Mena-Grotesk-SemiBold.woff') format('woff');
   font-weight: 600;
 }
 @font-face {
   font-family: Mena Grotesk;
-  src: url('/fonts/Mena-Grotesk-Bold.woff') format('woff');
+  src: url('./fonts/Mena-Grotesk-Bold.woff') format('woff');
   font-weight: 700;
 }
 * {
@@ -138,7 +138,7 @@ button {
   position: absolute;
   left: 0;
   bottom: 0;
-  background: url(./images/pattern-white.jpg);
+  background: url('./images/pattern-white.jpg');
   width: 100%;
   height: 10rem;
   z-index: -1;
